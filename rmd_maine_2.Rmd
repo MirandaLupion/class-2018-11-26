@@ -1,0 +1,26 @@
+---
+title: "rmd_maine_2"
+author: "Miranda Lupion"
+date: "11/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+
+raw_1 <- read_xlsx("Nov18CVRExportRaw-1.xlsx")
+raw_2 <- read_xlsx("Nov18CVRExportRaw-2.xlsx")
+raw_3 <- read_xlsx("Nov18CVRExportRaw-3.xlsx")
+
+tibble_1 <- read_rds("tibble_1.rds")
+tibble_2 <- read_rds("tibble_2.rds")
+
+```
+
+
+```{r}
+
+```
+
